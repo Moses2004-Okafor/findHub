@@ -1,0 +1,111 @@
+* {
+  color: #1f2937;
+  margin: 10px;
+}
+@font-face {
+  font-family: "Redaction 10";
+  src: local("Redaction 10");
+}
+
+body {
+  background-color: #f4f6f8;
+  font-family: "Redaction 10";
+}
+h1 {
+  color: #172554;
+  margin-left: 50px;
+  font-size: 35px;
+  text-align: center;
+}
+.profile-result{
+  display:none;
+}
+.profile-result p {
+  font-style: italic;
+}
+.shortInfo {
+  color: #24292f;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+#userName {
+  font-size: 15px;
+  padding: 4px;
+  outline: none;
+  border: 1px solid #2563eb;
+}
+#button {
+  background-color: #2563eb;
+  color: #1f2937;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+}
+
+.profile-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 30px;
+  background: #ffff;
+  margin: 20px;
+  padding: 50px 10px;
+  text-align: center;
+}
+.profile-result img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px;
+  border: 3px solid #2563eb;
+  padding: 3px;
+}
+.stats {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+span {
+  color: #1f2937;
+}
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+#repositories {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.repository-card {
+  padding: 18px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+.repository-card p {
+  margin: 6px 0;
+}
+.repository-card a {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  z-index: 1000;
+}

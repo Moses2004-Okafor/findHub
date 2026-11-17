@@ -1,0 +1,51 @@
+<!doctype html>
+<html en="lang">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FindHub</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>FINDHUB PROFILE SEARCH</h1>
+      <p class="shortInfo">Search for Github User</p>
+    </div>
+    <div>
+      <label for="text">Enter Username:</label>
+      <input type="text" id="userName" placeholder="Enter Username" />
+      <button type="submit" id="button">Search</button>
+    </div>
+    <section class="profile-result" id="profileResult">
+      <p>Search for a Github Username to see the profile.</p>
+      <div class="profile-card">
+        <img src="" alt="" />
+        <h2></h2>
+        <p class="username"></p>
+        <p class="bio"></p>
+        <div class="stats">
+          <div>
+            <span>Followers</span>
+            <strong></strong>
+          </div>
+          <div>
+            <span>Following</span>
+            <strong></strong>
+          </div>
+          <div>
+            <span>Repositories</span>
+            <strong></strong>
+          </div>
+        </div>
+        <a href="">View Github Profile</a>
+      </div>
+    </section> 
+    <div id="repositories"></div>
+    <button id="backToTop">Back To Top</button>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- 
+update fonts
+centralize the header section
+add padding to the input
+-->
